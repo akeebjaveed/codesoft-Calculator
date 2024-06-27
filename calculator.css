@@ -1,0 +1,94 @@
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        box-sizing: border-box;
+        margin: 0px;
+        background-image: url(./HD-wallpaper-modern-wavy-purple-background-8110265-vector-art-at-vecteezy.jpg);
+        background-size: cover;
+        /* From https://css.glass */
+        /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(5px);
+        /* border: 1px solid rgba(255, 255, 255, 0.3); */
+        
+    }
+    
+    #caculotorDiv{
+        height: 480px;
+        width: 300px;
+        padding: 20px;
+        background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+        border-radius: 10px;
+    
+    }
+    #inputDiv{
+        height: 70px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #input{
+        height: 60px;
+        width: 100%;
+        font-size: 25px;
+        outline: none;
+        border: none;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.16);
+        box-shadow: 0 4px 30px rgba(248, 247, 247, 0.159);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    #input{
+        color: white;
+        background: rgba(255, 255, 255, 0.16);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.159);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    #ButtonsDiv{
+        height: 360px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        /* background-color: rgba(255, 255, 255, 0.171); */
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .buttons{
+        /* margin-left: 20px; */
+        margin-bottom: 10px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+
+
+        background: rgba(255, 255, 255, 0.16);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.159);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+    }
+    .buttons:active{
+        height: 62px;
+        width: 62px;
+        background: rgba(255, 255, 255, 0.16);
+        box-shadow: 0 4px 30px rgba(79, 250, 0, 0.359);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+    }
